@@ -1,6 +1,6 @@
 Package: celldex
-Title: Reference Index for Cell Types 
-Version: 1.1.1
+Title: Reference Index for Cell Types
+Version: 1.4.0
 Date: 2021-05-12
 Authors@R: c(person("Dvir", "Aran", email="dvir.aran@ucsf.edu", role=c("aut")),
     person("Aaron", "Lun", email="infinite.monkeys.with.keyboards@gmail.com", role=c("aut", "cre", "cph")),
@@ -11,30 +11,28 @@ Description:
     Provides a collection of reference expression datasets with curated cell
     type labels, for use in procedures like automated annotation of single-cell
     data or deconvolution of bulk RNA-seq.
-License: GPL-3 
+License: GPL-3
 Depends: SummarizedExperiment
-Imports: 
-    utils,
-    ExperimentHub,
-    AnnotationHub,
-    AnnotationDbi,
-    S4Vectors,
-    DelayedArray,
-    DelayedMatrixStats
-Suggests:
-    testthat,
-    knitr,
-    rmarkdown,
-    BiocStyle,
-    DT
-biocViews: 
-    ExperimentHub,
-    ExperimentData, 
-    ExpressionData, 
-    SequencingData, 
-    RNASeqData
+Imports: utils, ExperimentHub, AnnotationHub, AnnotationDbi, S4Vectors,
+        DelayedArray, DelayedMatrixStats
+Suggests: testthat, knitr, rmarkdown, BiocStyle, DT
+biocViews: ExperimentHub, ExperimentData, ExpressionData,
+        SequencingData, RNASeqData
 VignetteBuilder: knitr
 Encoding: UTF-8
 URL: https://github.com/LTLA/celldex
 BugReports: https://support.bioconductor.org/
 RoxygenNote: 7.1.0
+git_url: https://git.bioconductor.org/packages/celldex
+git_branch: RELEASE_3_14
+git_last_commit: a92404d
+git_last_commit_date: 2021-10-26
+Date/Publication: 2021-10-30
+NeedsCompilation: no
+Packaged: 2021-10-30 15:13:00 UTC; biocbuild
+Author: Dvir Aran [aut],
+  Aaron Lun [aut, cre, cph],
+  Daniel Bunis [aut],
+  Jared Andrews [aut],
+  Friederike Dündar [aut]
+Maintainer: Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>
